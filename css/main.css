@@ -76,7 +76,7 @@ p {
 	.col-md-6, .col-md-12 {
         float: left;
 		background-color: #DCDCDC;
-		margin: 0px 5px 5px 5px;
+		margin: 5px 5px 5px 5px;
 	}
 
 	.col-md-6 {        
@@ -94,6 +94,6 @@ p {
 		float: left;
 		width: 100%;
 		background-color: #DCDCDC;
-		margin: 0px 10px 10px 10px;
+		margin: 5px 5px 5px 5px;
 	}
 }
