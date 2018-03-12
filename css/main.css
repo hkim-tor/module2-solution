@@ -1,6 +1,9 @@
 /*** Base Style ***/
 * {
     box-sizing: border-box;
+    margin: 0px;
+    font-size: 1em;
+    position: static;
 }
 
 /*** Font Style ***/
@@ -11,17 +14,19 @@ body {
 /*** Main title style ***/
 #mainTitle {
 	text-align: center;
-	font-size: 175%;
+	font-size: 1.75em;
+    margin-bottom: 10px;
 }
 
 /*** Item title style ***/
 .title {
+    position: relative;
     float: right;
-	text-align: right;
+	text-align: center;
 	margin: 0px;
 	padding: 5px;
 	border: 1px solid black;
-	font-size: 125%;
+	font-size: 1.25em;
 }
 
 #title1{
@@ -43,16 +48,15 @@ body {
 }
 
 /*** Main Paragraph style ***/
-.content {
-	float: left;
-    overflow: hidden;
-	padding: 0px 20px 20px 20px;
+p {
+	clear: right;
+    display: block;
+	padding: 10px 20px 20px 20px;
 }
 
 /*** Responsive Framework ***/
-    .row {
-        width: 100%;
-        overflow: hidden;
+.row {
+    width: 100%;
     }
 
 /*** Desktop view (992px and above) ***/
