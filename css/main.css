@@ -1,0 +1,95 @@
+/*** Base Style ***/
+* {
+    box-sizing: border-box;
+}
+
+/*** Font Style ***/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*** Main title style ***/
+#mainTitle {
+	text-align: center;
+	font-size: 175%;
+}
+
+/*** Item title style ***/
+.title {
+    float: right;
+	text-align: right;
+	margin: 0px;
+	padding: 5px;
+	border: 1px solid black;
+	font-size: 125%;
+}
+
+#title1{
+	background-color: #CD5C5C;
+}
+
+#title2{
+	background-color: #1E90FF;	
+}
+
+#title3{
+	background-color: #FFD700;
+}
+
+/*** Item Box style ***/
+#item1, #item2, #item3 {
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+/*** Main Paragraph style ***/
+.content {
+	float: left;
+    overflow: hidden;
+	padding: 0px 20px 20px 20px;
+}
+
+/*** Responsive Framework ***/
+    .row {
+        width: 100%;
+        overflow: hidden;
+    }
+
+/*** Desktop view (992px and above) ***/
+@media (min-width: 992px) {
+    
+	.col-lg-4 {
+		float: left;
+		width: 32%;
+		background-color: #DCDCDC;
+		margin: 5px;
+	}
+
+}
+/*** Tablet view ***/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+	.col-md-6, .col-md-12 {
+        float: left;
+		background-color: #DCDCDC;
+		margin: 0px 5px 5px 5px;
+	}
+
+	.col-md-6 {        
+        width: 48%;
+	}
+    
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/*** Mobile view ***/
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+		background-color: #DCDCDC;
+		margin: 0px 10px 10px 10px;
+	}
+}
